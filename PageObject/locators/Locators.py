@@ -1,0 +1,41 @@
+# Home Page locators
+loc_close_cookies_btn = "css:button.closeButton"
+loc_access_my_account_link = "css:a[href$=\"/en/user/\"]"
+
+# Login Page locators
+loc_login_email_txt = "css:input#loginEmail"
+loc_login_password_txt = "css:input#loginPassword"
+loc_login_btn = "css:input[value=\"Login\"]"
+
+# Account Page Locators
+loc_submit_new_application_btn = "css:li.newProject > a[href$=\"/en/project/new/\"]"
+loc_continue_submission_page = "css:div.resumeDraft.myProjects > h1"
+loc_submit_new_application_link = "css:p.submitNew > a"
+
+# New Application Page Locators
+loc_fill_out_forms_page = "css:div#content > h1"
+loc_first_name_txt = "css:input[name=\"af2fa1a9-f08c-56d6-a28f-3d4460a8d0a6::06c8a27e-7d11-57b2-9286-af8fc8ba5b27\"]"
+loc_last_name_txt = "css:input[name=\"98ff2ec1-0340-549b-b3f5-83e36acf2bdc::9d848df4-cdd0-50aa-820f-fdedcbda7e11\"]"
+loc_address_txt = "css:textarea[name=\"852ff964-97c2-5ea0-9674-49b3f95d2e86::17540589-1aa5-5bf7-93fa-d49acf58b711\"]"
+loc_postal_code_txt = "css:div.question-location > div:nth-child(3) > div.answer .field > input:first-child"
+loc_postal_code_popup = "css:li.ui-menu-item > a"
+loc_country_select = "css:select.locationCountry"
+loc_upload_btn = "css:div.qq-upload-button-selector > input[name=\"Filedata\"]"
+loc_gender_rdbtn = "css:li:first-child > input.radio"
+loc_role_select = "css:select[name=\"cba99291-980c-5cb1-91c2-1db8d294587b\"]"
+loc_tools_chkbx = "css:li:last-child > input.checkbox"
+loc_objective_frame = "css:iframe.cke_reset"
+loc_objective_txt = "css:body.cke_editable"
+loc_next_screen_btn = "css:input#navButtonNext"
+loc_first_name_label = "css:div#container_06c8a27e-7d11-57b2-9286-af8fc8ba5b27 > div.field"
+loc_last_name_label = "css:div#container_9d848df4-cdd0-50aa-820f-fdedcbda7e11 > div.field"
+loc_address_label = "css:div#container_17540589-1aa5-5bf7-93fa-d49acf58b711 > div.field"
+loc_postal_code_label = "css:div#container_5911b832-9522-524a-9f3c-8014c2ddba1c > div.field"
+loc_country_label = "css:div#container_bf6f7c7f-1da5-55d7-99ac-2866e4a139fd > div.field"
+loc_image_label = "css:div#container_396b40f4-2e98-5e88-8bb5-611227ddf7de > div > ul > li > a"
+loc_gender_label = "css:li#container_254f1489-f589-50c5-a1cc-698f61546ccc"
+loc_role_label = "css:div#container_cba99291-980c-5cb1-91c2-1db8d294587b > div > span"
+loc_tools_label = "css:li#container_2533e849-7e47-566e-89b5-d77bd909095f"
+loc_objective_label = " css:div#container_9aba057d-53de-543a-b8ec-9b8005d1bb1e > div"
+loc_validate_send_btn = "css:input#submitButton"
+loc_thank_you_page = "css:div.projectEnd > h1"
